@@ -186,31 +186,17 @@ font-style: italic;
   <div class="method"><a name="estimatesPriceGet"/>
     <div class="method-path">
     <a class="up" href="#__Methods">Up</a>
-    <pre class="get"><code class="huge"><span class="http-method">get</span> /estimates/price</code></pre></div>
-    <div class="method-summary">Price Estimates (<span class="nickname">estimatesPriceGet</span>)</div>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> affinity</code></pre></div>
+    <div class="method-summary">Affinity (<span class="nickname">estimatesPriceGet</span>)</div>
     
-    <div class="method-notes">The Price Estimates endpoint returns an estimated price range\nfor each product offered at a given location. The price estimate is\nprovided as a formatted string with the full price range and the localized\ncurrency symbol.&lt;br&gt;&lt;br&gt;The response also includes low and high estimates,\nand the [ISO 4217](http://en.wikipedia.org/wiki/ISO_4217) currency code for\nsituations requiring currency conversion. When surge is active for a particular\nproduct, its surge_multiplier will be greater than 1, but the price estimate\nalready factors in this multiplier.\n</div>
+    <div class="method-notes">Returns author affinities.</div>
 
-    
-
-    
-
-    
-
-    
-
-    
     <h3 class="field-label">Query parameters</h3>
     <div class="field-items">
-      <div class="param">start_latitude (required)</div>
+      <div class="param">t(required)</div>
 
-      <div class="param-desc"><span class="param-type">Query Parameter</span> &mdash; Latitude component of start location. </div><div class="param">start_longitude (required)</div>
-
-      <div class="param-desc"><span class="param-type">Query Parameter</span> &mdash; Longitude component of start location. </div><div class="param">end_latitude (required)</div>
-
-      <div class="param-desc"><span class="param-type">Query Parameter</span> &mdash; Latitude component of end location. </div><div class="param">end_longitude (required)</div>
-
-      <div class="param-desc"><span class="param-type">Query Parameter</span> &mdash; Longitude component of end location. </div>
+      <div class="param-desc"> Access token </div><div class="param">i (required)</div>
+      <div class="param-desc"> Author ID </div><div class="param">
     </div>  <!-- field-items -->
     
 
